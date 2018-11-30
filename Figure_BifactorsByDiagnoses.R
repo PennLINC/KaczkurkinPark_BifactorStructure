@@ -6,7 +6,7 @@ subjData<-readRDS("/data/jux/BBL/projects/pncT1AcrossDisorder/subjectData/n1394_
 
  
 ####################################################
-#### FIGURE 1: BIFACTORS BY SCREENING CATEGORY ####
+#### FIGURE 1c: BIFACTORS BY SCREENING CATEGORY ####
 ####################################################
 
 #Create table with bifactor means and sds only for diagnoses with >20 subjects.
