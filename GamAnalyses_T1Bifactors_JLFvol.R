@@ -9,7 +9,7 @@ library(dplyr)
 #Load data
 data.JLF <- readRDS("/data/jux/BBL/projects/pncT1AcrossDisorder/subjectData/n1394_T1_subjData.rds")
 
-#The right accumbens is	named "mprage_jlf_vol_R_Accumbens_Area" in the JLF dataset but "R_Accumbens" in the JLF labels csv. Remove "Area" from names.
+#The right accumbens is named "mprage_jlf_vol_R_Accumbens_Area" in the JLF dataset but "R_Accumbens" in the JLF labels csv. Remove "Area" from names.
 names(data.JLF)[names(data.JLF) == 'mprage_jlf_vol_R_Accumbens_Area'] <- 'mprage_jlf_vol_R_Accumbens'
 names(data.JLF)[names(data.JLF) == 'mprage_jlf_vol_L_Accumbens_Area'] <- 'mprage_jlf_vol_L_Accumbens'
 
